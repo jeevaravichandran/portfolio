@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of a Java Backend Developer">
+  <title>Jeeva Ravichandran | Java Backend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav"><a class="logo" href="#home">JR<span>.</span></a><button class="menu-toggle"
+        id="menuToggle" aria-label="Open navigation">☰</button>
+      <nav class="navlinks" id="navlinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <!-- <a href="#experience">Experience</a> -->
+        <a href="#portfolio">Portfolio</a>
+        <!-- <a href="#testimonials">Testimonials</a> -->
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions"><button class="theme-toggle" id="themeToggle" type="button"
+          aria-label="Switch to dark theme" title="Switch theme"><span class="theme-icon">☾</span><span
+            class="theme-label">Dark</span></button><a class="navbtn" href="#contact">Let's Talk ↗</a></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div><span class="available">Available for Work</span>
+          <h1>Hi, I'm <span class="name">Jeeva</span></h1>
+          <h2>Java Backend Developer</h2>
+          <p>I’m a Java Backend Developer focused on building REST APIs and backend applications using Java, 
+            Spring Boot, and SQL. I enjoy solving problems, improving my coding skills, and writing clean, 
+            maintainable code to build practical software solutions.</p>
+          <div class="btn-row"><a class="btn" href="#portfolio">View My Work ↗</a><a class="btn outline" href="files/Jeeva_Ravichandran_Java_Developer_Resume.pdf"
+              id="cvLink">Download Resume ↓</a></div>
+          <!-- <div class="socials"><span>Follow me:</span><a href="https://github.com/" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+            <a href="mailto:your.email@example.com" aria-label="Email">@</a></div> -->
+          <!-- <div class="stats">
+            <div class="stat"><strong>03+</strong><span>Projects & practice builds</span></div>
+            <div class="stat"><strong>06+</strong><span>Core technologies</span></div>
+          </div> -->
+        </div>
+        <div class="portrait-wrap">
+          <!-- <div class="portrait-bg"></div> -->
+          <div class="portrait"><img src="images/myimage.png" alt="JR"></div>
+          <!-- <div class="floating float-one">☕ Java Developer</div>
+          <div class="floating float-two">⌘ Spring Boot · REST API</div> -->
+        </div>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">About Me</div>
+          <h2>Get to Know Me Better</h2>
+          <p>Passionate about building useful software and continuously improving my craft.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-art">
+            <div class="about-monogram"><img src="images/Neon JR Developer Logo.png" alt="JR"></div>
+            <div class="exp-badge"><strong>Always learning</strong><span>One skill at a time</span></div>
+          </div>
+          <div class="about-copy">
+            <h3>A backend developer who enjoys solving real problems</h3>
+            <p>I’m an Information Technology graduate focused on Java backend development using Java, 
+              Spring Boot, and SQL. I enjoy building REST APIs, working with databases, 
+              implementing validation and authentication, and understanding how applications work 
+              behind the scenes.</p>
+            <p>I focus on writing clean, maintainable code and solving problems by breaking them 
+              into manageable steps. I’m looking for an entry-level software developer opportunity 
+              where I can apply my skills, contribute to real-world projects, and continue 
+              growing as a developer.</p>
+            <div class="info-grid">
+              <div class="info"><small>Name</small><b>Jeeva Ravichandran</b></div>
+              <div class="info"><small>Email</small><b>jeevaravichandran007@gmail.com</b></div>
+              <div class="info"><small>Location</small><b>Salem, Tamil Nadu</b></div>
+              <div class="info"><small>Availability</small><b>Open to Work</b></div>
+            </div><a class="btn" href="#contact">Let's Talk ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section tint">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">What I Do</div>
+          <h2>Building Backend Solutions with Java</h2>
+          <p>Practical skills for developing reliable APIs and maintainable applications.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-link"></i></div>
+            <h3>REST API Development</h3>
+            <p>Building RESTful endpoints with Spring Boot, request validation, and structured HTTP responses.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Database Management</h3>
+            <p>Working with SQL, MySQL and Spring Data JPA for data persistence.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-shield"></i></div>
+            <h3>Authentication & Security</h3>
+            <p>Implementing JWT authentication and role-based authorization in Spring Boot applications.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Application Architecture</h3>
+            <p>Organizing code into controller, service and repository layers for better maintainability.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-bug"></i></div>
+            <h3>Debugging & Testing</h3>
+            <p>Debugging application issues and using API tools to verify endpoint behaviour.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>Data Strictures & Algorithms</h3>
+            <p>Practicing problem-solving techniques to strengthen programming fundamentals. </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Skills</div>
+          <h2>My Expertise</h2>
+          <p>Choose a category to explore the related technologies and tools.</p>
+        </div>
+        <div class="skill-layout">
+          <div class="skill-categories" role="tablist" aria-label="Skill categories">
+            <button class="skill-category active"
+              data-skill="backend" role="tab" aria-selected="true"><span class="left"><span class="ico">JV</span>Backend
+                Technologies</span><span class="arrow">›</span>
+            </button>
+            <button class="skill-category"
+              data-skill="database" role="tab"><span class="left"><span class="ico">DB</span>Databases</span><span
+                class="arrow">›</span>
+            </button>
+            <button class="skill-category"
+              data-skill="orm" role="tab"><span class="left"><span class="ico">ORM</span>ORM & Persistence</span><span
+                class="arrow">›</span>
+            </button>
+             <button class="skill-category" data-skill="tools" role="tab"><span
+                class="left"><span class="ico">⚙</span>Tools & Technologies</span><span
+                class="arrow">›</span>
+            </button>
+            <button class="skill-category" data-skill="core" role="tab"><span
+                class="left"><span class="ico">CS</span>Core CS Concepts</span><span class="arrow">›</span>
+            </button>
+            <button class="skill-category"
+              data-skill="frontend" role="tab"><span class="left"><span class="ico">UI</span>Frontend
+                Fundamentals</span><span class="arrow">›</span>
+            </button>
+            <button
+              class="skill-category" data-skill="soft" role="tab"><span class="left"><span class="ico">✦</span>Soft
+                Skills</span><span class="arrow">›</span>
+            </button>
+          </div>
+          <div class="skill-detail" id="skillDetail" role="tabpanel" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="section tint" id="experience">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Experience</div>
+          <h2>My Learning Journey</h2>
+          <p>Education, projects and certifications that are shaping my career.</p>
+        </div>
+        <div class="timeline-grid">
+          <div class="timeline-col">
+            <h3>Education & Learning</h3>
+            <div class="timeline-item">
+              <div class="date">[Graduation year]</div>
+              <h4>[Your Degree]</h4>
+              <div class="place">[College Name]</div>
+              <p>[Add your course details and relevant academic information.]</p>
+            </div>
+            <div class="timeline-item">
+              <div class="date">Current Focus</div>
+              <h4>Java Backend Development</h4>
+              <div class="place">Independent Learning & Projects</div>
+              <p>Practising Java, Spring Boot, REST APIs, JPA, SQL, security and problem solving.</p>
+            </div>
+          </div>
+          <div class="timeline-col">
+            <h3>Certifications</h3>
+            <div class="timeline-item">
+              <div class="date">Certification</div>
+              <h4>Web Development Fundamentals</h4>
+              <div class="place">IBM SkillsBuild · [Completion date]</div>
+              <p>[Add credential link if available.]</p>
+            </div>
+            <div class="timeline-item">
+              <div class="date">Certification</div>
+              <h4>Cloud Computing Fundamentals</h4>
+              <div class="place">IBM SkillsBuild · [Completion date]</div>
+              <p>[Add credential link if available.]</p>
+            </div>
+            <div class="certs"><span class="cert">Java</span><span class="cert">Spring Boot</span><span
+                class="cert">SQL</span><span class="cert">REST APIs</span></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Portfolio</div>
+          <h2>Featured Projects</h2>
+          <p>A collection of practical projects and coding practice showcasing my skills in Java, Spring Boot, SQL, Frontend Technologies and problem-solving.</p>
+        </div>
+        <div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter"
+            data-filter="backend">Backend</button><button class="filter" data-filter="database">Frontend</button><button
+            class="filter" data-filter="learning">Core Java</button></div>
+        <div class="project-grid">
+          <article class="project" data-category="backend">
+            <div class="project-art"><img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+                alt="Todo API · Java + Spring Boot" loading="lazy"></div>
+            <div class="project-body">
+              <div class="project-meta">BACKEND · REST API</div>
+              <h3>Todo Management API</h3>
+              <p>A Spring Boot REST API for managing users and tasks, featuring CRUD operations, validation, pagination, 
+                JWT authentication, and role-based authorization.</p>
+              <div class="tags"><span>Java</span><span>Spring
+                  Boot</span><span>Spring Security</span><span>JPA</span><span>MySQL</span></div><a href="https://github.com/jeevaravichandran/TodoApplicationBySpringBoot"
+                target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+            </div>
+          </article>
+          <article class="project" data-category="database">
+            <div class="project-art"><img
+                src="
+                https://media.istockphoto.com/id/1043459006/photo/close-up-woman-sitting-and-orde-food-online-on-laptop-computer-in-add-to-cart-function.jpg?s=1024x1024&w=is&k=20&c=AVK1XXFUKJ9CchR6ixJ4crU5XKXXdstwKpFj1atVFIg="
+                alt="Food Website User Interface" loading="lazy"></div>
+            <div class="project-body">
+              <div class="project-meta">Frontend · User Interface</div>
+              <h3>Restaurant Website UI</h3>
+              <p>Designed a responsive food restaurant website using HTML, CSS, and JavaScript. 
+                Featured key pages like About Us, Contact, Table Booking, and Feedback forms. 
+                Demonstrated strong front-end skills with a focus on user interaction.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a
+                href="https://github.com/jeevaravichandran/Honey-Candy" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+                <a
+                href="https://jeevaravichandran.github.io/Honey-Candy/" target="_blank" rel="noreferrer" style="margin-left: 30px;">Live Demo ↗</a>
+            </div>
+          </article>
+          <article class="project" data-category="learning">
+            <div class="project-art"><img
+                src="https://images.unsplash.com/photo-1636586108931-a8b9b8796ba6?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="Bank Management System" loading="lazy"></div>
+            <div class="project-body">
+              <div class="project-meta">Core Java · Console</div>
+              <h3>Bank Management System Console Application</h3>
+              <p>Developed a console-based Java application with core Java and OOP concepts. Include account creation, deposits, withdrawals, 
+                balance inquiries, and transaction statements. Utilized HashMap for data storage and ArrayList for transaction management.
+              </p>
+              <div class="tags"><span>Core Java</span><span>Exception Handling</span><span>OOP</span></div><a
+                href="https://github.com/jeevaravichandran/BankManagementSystem" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="section tint" id="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Highlights</div>
+          <h2>How I Approach My Work</h2>
+          <p>Core values I bring to learning and engineering. Replace this section with genuine testimonials when
+            available.</p>
+        </div>
+        <div class="testimonials">
+          <article class="quote">
+            <div class="stars">✦ ✦ ✦</div>
+            <blockquote>“Understand the problem clearly before deciding how to solve it.”</blockquote>
+            <div class="person">
+              <div class="avatar">01</div>
+              <div><b>Problem First</b><small>Engineering mindset</small></div>
+            </div>
+          </article>
+          <article class="quote">
+            <div class="stars">✦ ✦ ✦</div>
+            <blockquote>“Write code that another developer can read, test and maintain.”</blockquote>
+            <div class="person">
+              <div class="avatar">02</div>
+              <div><b>Clarity Matters</b><small>Code quality</small></div>
+            </div>
+          </article>
+          <article class="quote">
+            <div class="stars">✦ ✦ ✦</div>
+            <blockquote>“Keep learning, build projects and turn feedback into improvement.”</blockquote>
+            <div class="person">
+              <div class="avatar">03</div>
+              <div><b>Continuous Growth</b><small>Learning mindset</small></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+    <div class="stats-band">
+      <div class="container stats-row">
+        <div><strong>Java</strong><span>Primary language</span></div>
+        <div><strong>Spring</strong><span>Backend framework</span></div>
+        <div><strong>REST</strong><span>API development</span></div>
+        <div><strong>SQL</strong><span>Data & persistence</span></div>
+      </div>
+    </div>
+    <!-- <section class="section" id="blog">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Learning Notes</div>
+          <h2>Latest Articles</h2>
+          <p>Use this section for technical notes, tutorials or lessons from your projects.</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog">
+            <div class="blog-art">{ }</div>
+            <div class="blog-body">
+              <div class="blog-meta">JAVA · FUNDAMENTALS</div>
+              <h3>Understanding REST APIs with Spring Boot</h3>
+              <p>[Add a short summary of a technical article or learning note.]</p><a href="https://github.com/">Read
+                More ↗</a>
+            </div>
+          </article>
+          <article class="blog">
+            <div class="blog-art">DB</div>
+            <div class="blog-body">
+              <div class="blog-meta">DATABASE · JPA</div>
+              <h3>How JPA Connects Java Objects to Data</h3>
+              <p>[Share an explanation of an ORM concept you have learned.]</p><a href="https://github.com/">Read More
+                ↗</a>
+            </div>
+          </article>
+          <article class="blog">
+            <div class="blog-art">DSA</div>
+            <div class="blog-body">
+              <div class="blog-meta">CAREER · PROBLEM SOLVING</div>
+              <h3>Breaking Down a DSA Problem</h3>
+              <p>[Write about the approach you use to reason through coding problems.]</p><a
+                href="https://github.com/">Read More ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+    <section class="section tint" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">Contact</div>
+          <h2>Let's Work Together</h2>
+          <p>Have an opportunity or want to discuss a project? Send me a message.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>I'm open to entry-level Java / Backend Developer opportunities and collaborations.</p>
+            <div class="contact-line"><span class="ico"><i class="fa-solid fa-envelope"></i></span>
+              <div><small>Email</small><b><a href="mailto:jeevaravichandran007@gmail.com">jeevaravichandran007@gmail.com</a></b></div>
+            </div>
+            <div class="contact-line"><span class="ico"><i class="fa-brands fa-github"></i></span>
+              <div><small>GitHub</small><b><a href="https://github.com/jeevaravichandran">visit profile ↗</a></b></div>
+            </div>
+            <div class="contact-line"><span class="ico"><i class="fa-brands fa-linkedin"></i></span>
+              <div><small>LinkedIn</small><b><a href="https://www.linkedin.com/in/jeeva-ravichandran/">visit profile ↗</a></b></div>
+            </div>
+            <div class="contact-line"><span class="ico"><i class="fa-solid fa-location-dot"></i></span>
+              <div><small>Location</small><b>Salem, Tamil Nadu, India</b></div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="field"><label for="firstName">First Name</label><input id="firstName" name="firstName"
+                placeholder="First name" required></div>
+            <div class="field"><label for="lastName">Last Name</label><input id="lastName" name="lastName"
+                placeholder="Last name"></div>
+            <div class="field full"><label for="email">Email Address</label><input type="email" id="email" name="email"
+                placeholder="you@example.com" required></div>
+            <div class="field full"><label for="subject">Subject</label><input id="subject" name="subject"
+                placeholder="Job opportunity / Project inquiry" required></div>
+            <div class="field full"><label for="message">Message</label><textarea id="message" name="message"
+                placeholder="Write your message..." required></textarea></div><button class="btn" type="submit">Send
+              Message ↗</button>
+            <!-- <p class="form-note">This opens your email app with a pre-filled message. Replace the placeholder email
+              address before publishing.</p> -->
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div><a class="logo" href="#home">JR<span style="color:white">.</span></a>
+          <p>Java Backend Developer focused on clean code, useful APIs and continuous learning.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a
+              href="#portfolio">Portfolio</a><a href="#contact">Contact</a></div>
+        </div>
+        <div>
+          <h4>Focus Areas</h4>
+          <div class="footer-links"><a href="#skills">Java & Spring Boot</a><a href="#skills">REST APIs</a><a
+              href="#skills">SQL & JPA</a><a href="#portfolio">Projects</a></div>
+        </div>
+        <div>
+          <h4>Coding Profiles</h4>
+          <p>Explore my coding practice and problem-solving journey across platforms.</p>
+           <div class="contact-line"><span class="ico"><i class="fa-brands fa-leetcode"></i></span>
+              <div><small>Leetcode</small><b><a href="https://leetcode.com/u/JeevaRavichandran/">visit profile ↗</a></b></div>
+            </div>
+            <div class="contact-line"><span class="ico"><i class="fa-solid fa-g"></i></span>
+              <div><small>GeeksForGeeks</small><b><a href="https://www.geeksforgeeks.org/profile/jeevaravich5i1w">visit profile ↗</a></b></div>
+            </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> jeeva ravichandran. All rights reserved.</span><a href="#home">Back to top ↑</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
